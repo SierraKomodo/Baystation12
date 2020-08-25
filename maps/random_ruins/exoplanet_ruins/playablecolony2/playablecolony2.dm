@@ -1,3 +1,5 @@
+#include "playablecolony2_radio.dm"
+
 /datum/map_template/ruin/exoplanet/playablecolony2
 	name = "Landed Colony Ship"
 	id = "playablecolony2"

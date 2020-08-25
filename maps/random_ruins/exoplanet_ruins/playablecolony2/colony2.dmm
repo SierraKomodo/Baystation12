@@ -2008,8 +2008,8 @@
 /obj/random/shoes,
 /obj/random/accessory,
 /obj/random/accessory,
-/obj/item/device/radio,
-/obj/item/device/radio,
+/obj/item/device/radio/map_preset/playablecolony2,
+/obj/item/device/radio/map_preset/playablecolony2,
 /obj/item/weapon/crowbar/prybar,
 /obj/item/weapon/crowbar/prybar,
 /turf/simulated/floor/tiled/techmaint,
@@ -2217,8 +2217,8 @@
 /obj/item/weapon/storage/belt/holster/security,
 /obj/item/weapon/crowbar/prybar,
 /obj/item/weapon/crowbar/prybar,
-/obj/item/device/radio,
-/obj/item/device/radio,
+/obj/item/device/radio/map_preset/playablecolony2,
+/obj/item/device/radio/map_preset/playablecolony2,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/map_template/colony2/atmospherics)
 "SR" = (
