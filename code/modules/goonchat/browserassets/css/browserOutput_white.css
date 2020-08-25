@@ -306,6 +306,9 @@ em						{font-style: normal;font-weight: bold;}
 .srvradio				{color: #6eaa2c;}
 .expradio				{color: #a3a332;}
 
+.hailradio				{color: #cc00aa;}
+.exampleradio			{color: #ff00ff;}
+
 /* Miscellaneous */
 .name					{font-weight: bold;}
 .alert					{color: #ff0000;}

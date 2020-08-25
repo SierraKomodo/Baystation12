@@ -77,6 +77,8 @@ Radio:
 1347 - Cargo techs
 1349 - Service people
 
+1491-1509 - Away sites
+
 Devices:
 1451 - tracking implant
 1457 - RSD default
@@ -114,6 +116,7 @@ var/const/ENT_FREQ	= 1461 //entertainment frequency. This is not a diona exclusi
 
 // department channels
 var/const/PUB_FREQ = 1459
+var/const/HAIL_FREQ = 1463
 var/const/SEC_FREQ = 1359
 var/const/ENG_FREQ = 1357
 var/const/MED_FREQ = 1355
@@ -125,6 +128,10 @@ var/const/EXP_FREQ = 1361
 // internal department channels
 var/const/MED_I_FREQ = 1485
 var/const/SEC_I_FREQ = 1475
+
+// Away Site Channels
+var/list/AWAY_FREQS_UNASSIGNED = list(1491, 1493, 1495, 1497, 1499, 1501, 1503, 1505, 1507, 1509)
+var/list/AWAY_FREQS_ASSIGNED = list(HAIL_FREQ)
 
 // Device signal frequencies
 var/const/ATMOS_ENGINE_FREQ = 1438 // Used by atmos monitoring in the engine.
@@ -141,6 +148,7 @@ var/const/EXTERNAL_AIR_FREQ = 1380 // Used by some external airlocks.
 
 var/list/radiochannels = list(
 	"Common"		= PUB_FREQ,
+	"Hailing"		= HAIL_FREQ,
 	"Science"		= SCI_FREQ,
 	"Command"		= COMM_FREQ,
 	"Medical"		= MED_FREQ,
@@ -166,6 +174,7 @@ var/list/channel_color_presets = list(
 	"Bold Brass" = COMMS_COLOR_EXPLORER,
 	"Gastric Green" = COMMS_COLOR_SERVICE,
 	"Global Green" = COMMS_COLOR_COMMON,
+	"Hippin' Hot Pink" = COMMS_COLOR_HAILING,
 	"Menacing Maroon" = COMMS_COLOR_SYNDICATE,
 	"Operational Orange" = COMMS_COLOR_ENGINEER,
 	"Painful Pink" = COMMS_COLOR_AI,
@@ -223,10 +232,31 @@ var/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, SEC_FREQ, SCI
 		return "mediradio"
 	if(frequency == SEC_I_FREQ) // Security intercom
 		return "seciradio"
+	if (frequency == HAIL_FREQ) // Hailing frequency
+		return "hailradio"
 	if(frequency in DEPT_FREQS)
 		return "deptradio"
 
+	// Away site channels
+	for (var/channel in AWAY_FREQS_ASSIGNED)
+		if (AWAY_FREQS_ASSIGNED[channel] == frequency)
+			return "[lowertext(channel)]radio"
+
 	return "radio"
+
+
+/proc/assign_away_freq(channel)
+	if (!AWAY_FREQS_UNASSIGNED.len)
+		return FALSE
+
+	if (channel in AWAY_FREQS_ASSIGNED)
+		return AWAY_FREQS_ASSIGNED[channel]
+
+	var/freq = pick_n_take(AWAY_FREQS_UNASSIGNED)
+	AWAY_FREQS_ASSIGNED[channel] = freq
+	radiochannels[channel] = freq
+	return freq
+
 
 /* filters */
 //When devices register with the radio controller, they might register under a certain filter.
