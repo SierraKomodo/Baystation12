@@ -178,6 +178,7 @@ var/list/channel_color_presets = list(
 	"Obvious Olive" = COMMS_COLOR_VERNE,
 	"Painful Pink" = COMMS_COLOR_AI,
 	"Phenomenal Purple" = COMMS_COLOR_SCIENCE,
+	"Powerful Plum" = COMMS_COLOR_BEARCAT,
 	"Pretty Periwinkle" = COMMS_COLOR_CENTCOMM,
 	"Radical Ruby" = COMMS_COLOR_VOX,
 	"Raging Red" = COMMS_COLOR_SECURITY,

@@ -113,6 +113,7 @@
 #define	COMMS_COLOR_SKRELL     "#7331c4"
 #define COMMS_COLOR_VERNE      "#738465"
 #define COMMS_COLOR_VOX        "#f32b06"
+#define COMMS_COLOR_BEARCAT    "#590e2d"
 
 #define WOOD_COLOR_GENERIC     "#d5a66e"
 #define WOOD_COLOR_RICH        "#792f27"
