@@ -179,6 +179,7 @@ var/list/channel_color_presets = list(
 	"Painful Pink" = COMMS_COLOR_AI,
 	"Phenomenal Purple" = COMMS_COLOR_SCIENCE,
 	"Pretty Periwinkle" = COMMS_COLOR_CENTCOMM,
+	"Radical Ruby" = COMMS_COLOR_VOX,
 	"Raging Red" = COMMS_COLOR_SECURITY,
 	"Spectacular Silver" = COMMS_COLOR_ENTERTAIN,
 	"Tantalizing Turquoise" = COMMS_COLOR_MEDICAL,
