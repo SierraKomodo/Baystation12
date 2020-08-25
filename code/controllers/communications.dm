@@ -172,6 +172,7 @@ var/list/channel_color_presets = list(
 	"Bold Brass" = COMMS_COLOR_EXPLORER,
 	"Gastric Green" = COMMS_COLOR_SERVICE,
 	"Global Green" = COMMS_COLOR_COMMON,
+	"Grand Gold" = COMMS_COLOR_COLONY,
 	"Hippin' Hot Pink" = COMMS_COLOR_HAILING,
 	"Menacing Maroon" = COMMS_COLOR_SYNDICATE,
 	"Operational Orange" = COMMS_COLOR_ENGINEER,
