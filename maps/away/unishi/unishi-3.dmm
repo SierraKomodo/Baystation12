@@ -59,6 +59,10 @@
 /obj/structure/bed/chair{
 	dir = 1
 	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 1;
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled,
 /area/unishi/bridge)
 "ao" = (
@@ -72,6 +76,11 @@
 	dir = 1
 	},
 /obj/machinery/light,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	default_hailing = 1;
+	dir = 1;
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled,
 /area/unishi/bridge)
 "aq" = (
@@ -116,6 +125,10 @@
 /obj/effect/submap_landmark/spawnpoint/unishi_crew,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 1;
+	pixel_y = -32
 	},
 /turf/simulated/floor/tiled,
 /area/unishi/bridge)
@@ -179,6 +192,9 @@
 	pixel_x = -23;
 	pixel_y = 0;
 	req_access = newlist()
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
 	},
 /turf/simulated/floor,
 /area/unishi/bridge)
@@ -422,6 +438,9 @@
 "bw" = (
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet/blue,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled,
 /area/unishi/living)
 "bx" = (
@@ -661,6 +680,10 @@
 /obj/item/bodybag/cryobag,
 /obj/item/modular_computer/laptop/preset/custom_loadout/advanced,
 /obj/item/weapon/book/manual/medical_diagnostics_manual,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 8;
+	pixel_x = 24
+	},
 /turf/simulated/floor/tiled/white,
 /area/unishi/med)
 "cd" = (
@@ -1093,6 +1116,9 @@
 /obj/structure/table/woodentable,
 /obj/item/trash/raisins,
 /obj/item/weapon/book/manual/nuclear,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/unishi/living)
 "cZ" = (
@@ -1227,6 +1253,10 @@
 "do" = (
 /obj/structure/table/marble,
 /obj/item/weapon/book/manual/chef_recipes,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 8;
+	pixel_x = 24
+	},
 /turf/simulated/floor/tiled,
 /area/unishi/kitchen)
 "dp" = (
@@ -1349,6 +1379,9 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/item/ammo_casing/pistol/used,
 /obj/item/ammo_casing/pistol/used,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled,
 /area/unishi/living)
 "dD" = (
@@ -1365,6 +1398,10 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
 	},
 /turf/simulated/floor/tiled,
 /area/unishi/living)
@@ -1525,6 +1562,10 @@
 "dZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
+	},
 /turf/simulated/floor/tiled,
 /area/unishi/living)
 "ea" = (
@@ -1566,6 +1607,10 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1;
 	level = 2
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 1;
+	pixel_y = -32
 	},
 /turf/simulated/floor/tiled,
 /area/unishi/living)
@@ -1617,6 +1662,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled,
 /area/unishi/living)
 "em" = (
@@ -1639,6 +1687,9 @@
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
 	},
 /turf/simulated/floor/tiled,
 /area/unishi/living)
@@ -1739,6 +1790,10 @@
 /obj/item/toy/plushie/lizard,
 /obj/random/advdevice,
 /obj/random/drinkbottle,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
+	},
 /turf/simulated/floor/wood,
 /area/unishi/living)
 "eC" = (
@@ -1808,6 +1863,10 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 8;
+	pixel_x = 24
+	},
 /turf/simulated/floor/wood,
 /area/unishi/living)
 "eJ" = (
@@ -1867,6 +1926,9 @@
 "eR" = (
 /obj/structure/bed/chair/office/comfy/black{
 	dir = 4
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
 	},
 /turf/simulated/floor/wood,
 /area/unishi/living)
@@ -2023,6 +2085,21 @@
 	},
 /turf/simulated/floor/tiled,
 /area/unishi/living)
+"hN" = (
+/obj/structure/bed/chair/armchair/black,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/wood,
+/area/unishi/lounge)
+"pc" = (
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled,
+/area/unishi/living)
 "pd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2055,6 +2132,12 @@
 /obj/machinery/hologram/holopad/longrange/remoteship,
 /turf/simulated/floor/tiled,
 /area/unishi/bridge)
+"uv" = (
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled,
+/area/unishi/living)
 "vn" = (
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
@@ -2078,6 +2161,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/tiled,
 /area/unishi/living)
+"Ot" = (
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
+	},
+/turf/simulated/floor,
+/area/unishi/bridge)
 "Um" = (
 /obj/machinery/light/small{
 	dir = 4;
@@ -2088,6 +2177,17 @@
 "XA" = (
 /obj/structure/railing/mapped,
 /turf/simulated/open,
+/area/unishi/living)
+"Ys" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled,
 /area/unishi/living)
 
 (1,1,1) = {"
@@ -7245,7 +7345,7 @@ dZ
 ed
 ej
 bf
-bp
+pc
 vn
 bf
 dF
@@ -7422,7 +7522,7 @@ aK
 aD
 aD
 be
-bp
+uv
 bt
 bf
 bJ
@@ -7431,7 +7531,7 @@ bV
 cd
 cq
 cx
-cd
+hN
 cH
 cP
 cS
@@ -7520,7 +7620,7 @@ as
 as
 as
 as
-aJ
+Ot
 aT
 bb
 be
@@ -7551,7 +7651,7 @@ dZ
 ed
 em
 ed
-ec
+Ys
 eu
 bf
 zD

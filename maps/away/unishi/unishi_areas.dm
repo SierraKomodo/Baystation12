@@ -68,3 +68,7 @@
 /area/unishi/smresearch
 	name = "\improper Supermatter Research Area"
 	icon_state = "smresearch"
+
+/area/unishi/telecomms
+	name = "Communications"
+	icon_state = "engineering"

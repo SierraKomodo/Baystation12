@@ -176,6 +176,7 @@ var/list/channel_color_presets = list(
 	"Hippin' Hot Pink" = COMMS_COLOR_HAILING,
 	"Menacing Maroon" = COMMS_COLOR_SYNDICATE,
 	"Operational Orange" = COMMS_COLOR_ENGINEER,
+	"Obvious Olive" = COMMS_COLOR_VERNE,
 	"Painful Pink" = COMMS_COLOR_AI,
 	"Phenomenal Purple" = COMMS_COLOR_SCIENCE,
 	"Powerful Plum" = COMMS_COLOR_BEARCAT,
