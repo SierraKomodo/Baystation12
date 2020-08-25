@@ -64,6 +64,7 @@ em						{font-style: normal;font-weight: bold;}
 .hailradio				{color: #cc00aa;}
 .exampleradio			{color: #ff00ff;}
 .voxradio				{color: #f32b06;}
+.bearcatradio			{color: #590e2d;}
 
 /* Miscellaneous */
 .name					{font-weight: bold;}
