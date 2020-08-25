@@ -16,6 +16,10 @@
 /obj/structure/table/woodentable,
 /obj/random/advdevice,
 /obj/item/device/flashlight/lamp,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
+	},
 /turf/simulated/floor/carpet/red,
 /area/unishi/library)
 "af" = (
@@ -387,6 +391,10 @@
 	dir = 8;
 	icon_state = "tube1";
 	pixel_y = 0
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/white,
 /area/unishi/chem)
@@ -1410,6 +1418,10 @@
 /area/unishi/common)
 "dE" = (
 /obj/structure/closet/crate/bin,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 8;
+	pixel_x = 24
+	},
 /turf/simulated/floor/tiled/dark,
 /area/unishi/common)
 "dF" = (
@@ -1443,6 +1455,10 @@
 "dK" = (
 /obj/structure/bed/chair/office{
 	dir = 1
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
 	},
 /turf/simulated/floor/tiled,
 /area/unishi/rnd)
@@ -1720,6 +1736,9 @@
 /obj/item/device/scanner/xenobio,
 /obj/item/weapon/storage/box/monkeycubes,
 /obj/random/smokes,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled/white,
 /area/unishi/xenobio)
 "ew" = (
@@ -2002,6 +2021,10 @@
 /obj/item/seeds/random,
 /obj/item/seeds/random,
 /obj/item/seeds/random,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 1;
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled,
 /area/unishi/hydro)
 "ff" = (
@@ -2023,28 +2046,35 @@
 /turf/simulated/wall/titanium,
 /area/unishi/common)
 "fi" = (
-/obj/structure/flora/pottedplant/overgrown,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4;
+	level = 2
+	},
+/obj/machinery/alarm/server,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/unishi/telecomms)
+"fj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -23;
-	pixel_y = 0;
-	req_access = newlist()
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/dark,
-/area/unishi/common)
-"fj" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1;
-	icon_state = "map-scrubbers"
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark,
-/area/unishi/common)
+/turf/simulated/floor/tiled/techfloor,
+/area/unishi/telecomms)
 "fk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -2054,6 +2084,11 @@
 	},
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/unishi/common)
@@ -2075,6 +2110,11 @@
 /obj/structure/cable/yellow{
 	d2 = 4;
 	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/unishi/common)
@@ -2142,9 +2182,9 @@
 /turf/simulated/floor,
 /area/unishi/common)
 "fv" = (
-/obj/structure/flora/pottedplant/aquatic,
-/turf/simulated/floor/tiled/dark,
-/area/unishi/common)
+/obj/machinery/telecomms/receiver/map_preset/unishi,
+/turf/simulated/floor/tiled/techfloor,
+/area/unishi/telecomms)
 "fw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -2176,28 +2216,22 @@
 /turf/simulated/floor/tiled/dark,
 /area/unishi/common)
 "fB" = (
-/obj/structure/bed/chair/office/comfy/black{
-	dir = 4
-	},
 /obj/machinery/light,
-/turf/simulated/floor/tiled/dark,
-/area/unishi/common)
-"fC" = (
-/obj/structure/table/woodentable,
-/obj/item/weapon/paper_bin,
-/obj/item/device/flashlight/lamp,
-/turf/simulated/floor/tiled/dark,
-/area/unishi/common)
+/obj/machinery/telecomms/processor/map_preset/unishi,
+/turf/simulated/floor/tiled/techfloor,
+/area/unishi/telecomms)
 "fD" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/unishi/common)
+/obj/machinery/telecomms/broadcaster/map_preset/unishi,
+/turf/simulated/floor/tiled/techfloor,
+/area/unishi/telecomms)
 "fE" = (
 /obj/structure/bed/chair/office/comfy/black{
 	dir = 1;
 	icon_state = "comfyofficechair_preview"
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/dark,
 /area/unishi/common)
@@ -2226,6 +2260,10 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/dark,
 /area/unishi/common)
@@ -2308,6 +2346,10 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 8;
+	pixel_x = 24
+	},
 /turf/simulated/floor/tiled/dark,
 /area/unishi/smresearch)
 "fS" = (
@@ -2349,6 +2391,9 @@
 	dir = 8
 	},
 /obj/item/remains,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/unishi/smresearch)
 "fW" = (
@@ -2976,6 +3021,10 @@
 /obj/random/shoes,
 /obj/machinery/light/small,
 /obj/item/remains,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 1;
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/unishi/smresearch)
 "ht" = (
@@ -3038,20 +3087,121 @@
 	},
 /turf/simulated/wall/titanium,
 /area/unishi/smresearch)
+"jq" = (
+/turf/simulated/wall/r_wall,
+/area/unishi/telecomms)
+"lk" = (
+/obj/machinery/power/apc{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/unishi/telecomms)
+"mv" = (
+/obj/structure/bed/chair/office/comfy/black,
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled,
+/area/unishi/meeting)
+"ol" = (
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/dark,
+/area/unishi/common)
 "qW" = (
 /obj/structure/table/standard,
 /obj/machinery/reagent_temperature,
 /turf/simulated/floor/tiled/white,
 /area/unishi/chem)
+"ra" = (
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 8;
+	pixel_x = 24
+	},
+/turf/simulated/floor,
+/area/unishi/common)
+"sF" = (
+/obj/machinery/telecomms/server/map_preset/unishi,
+/turf/simulated/floor/tiled/techfloor,
+/area/unishi/telecomms)
+"tI" = (
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/dark,
+/area/unishi/classroom)
 "xD" = (
 /obj/machinery/reagentgrinder,
 /turf/simulated/floor/tiled/white,
 /area/unishi/chem)
+"Bh" = (
+/obj/machinery/telecomms/hub/map_preset/unishi,
+/turf/simulated/floor/tiled/techfloor,
+/area/unishi/telecomms)
+"FY" = (
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 8;
+	pixel_x = 24
+	},
+/turf/simulated/floor/carpet/red,
+/area/unishi/library)
+"HP" = (
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 1;
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/unishi/toxins)
+"Jj" = (
+/turf/simulated/wall/titanium,
+/area/unishi/telecomms)
+"Kq" = (
+/obj/machinery/telecomms/bus/map_preset/unishi,
+/turf/simulated/floor/tiled/techfloor,
+/area/unishi/telecomms)
+"KX" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/unishi/telecomms)
+"Or" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/dark,
+/area/unishi/common)
 "OW" = (
 /obj/structure/table/standard,
 /obj/machinery/reagent_temperature/cooler,
 /turf/simulated/floor/tiled/white,
 /area/unishi/chem)
+"SJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/door/firedoor,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/unishi/telecomms)
 
 (1,1,1) = {"
 aa
@@ -7287,10 +7437,10 @@ ad
 ad
 ad
 ad
-fh
-fh
-fp
-fp
+Jj
+Jj
+Jj
+Jj
 fK
 fK
 fK
@@ -7389,8 +7539,8 @@ el
 eK
 el
 el
-fh
-fh
+lk
+sF
 fv
 fB
 fK
@@ -7492,9 +7642,9 @@ eL
 eU
 em
 fi
-fp
-be
-fC
+KX
+KX
+KX
 fL
 fN
 fN
@@ -7576,7 +7726,7 @@ bt
 bQ
 bt
 ca
-bE
+tI
 cn
 ct
 cA
@@ -7594,8 +7744,8 @@ eM
 eV
 em
 fj
-fq
-fw
+Bh
+Kq
 fD
 fL
 fN
@@ -7681,7 +7831,7 @@ bE
 bE
 co
 ct
-cA
+mv
 cO
 cY
 dg
@@ -7695,10 +7845,10 @@ eD
 eN
 eW
 em
-dj
-bl
-bl
-bl
+SJ
+jq
+jq
+jq
 fL
 fN
 fN
@@ -7978,7 +8128,7 @@ aW
 be
 be
 bo
-be
+ol
 bG
 bw
 bU
@@ -8205,7 +8355,7 @@ eG
 be
 fa
 aG
-dj
+Or
 bl
 bl
 bl
@@ -8377,7 +8527,7 @@ ac
 aj
 ap
 aq
-ao
+FY
 aq
 ay
 aI
@@ -8399,7 +8549,7 @@ cG
 cT
 dc
 dl
-dc
+HP
 dF
 dS
 eg
@@ -8585,7 +8735,7 @@ ad
 ad
 fh
 aK
-aS
+ra
 ba
 ba
 aG

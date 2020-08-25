@@ -1,5 +1,6 @@
 #include "unishi_areas.dm"
 #include "unishi_jobs.dm"
+#include "unishi_radio.dm"
 
 /obj/effect/submap_landmark/joinable_submap/unishi
 	name = "SRV Verne"

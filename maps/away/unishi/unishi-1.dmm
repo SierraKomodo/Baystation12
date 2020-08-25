@@ -111,6 +111,10 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 8;
+	pixel_x = 24
+	},
 /turf/simulated/floor,
 /area/unishi/engineering)
 "ao" = (
@@ -128,6 +132,10 @@
 "aq" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 4;
+	pixel_x = -24
 	},
 /turf/simulated/floor,
 /area/unishi/engineering)
@@ -287,6 +295,10 @@
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
 	dir = 8;
 	id_tag = "unishi_vent"
+	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 1;
+	pixel_y = -32
 	},
 /turf/simulated/floor,
 /area/unishi/engineering)
@@ -612,6 +624,9 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 8
+	},
 /turf/simulated/floor,
 /area/unishi/engineroom)
 "bD" = (
@@ -831,6 +846,13 @@
 /obj/effect/shuttle_landmark/nav_unishi/nav3,
 /turf/space,
 /area/space)
+"dP" = (
+/obj/item/device/radio/intercom/map_preset/unishi{
+	dir = 8;
+	pixel_x = 24
+	},
+/turf/simulated/floor,
+/area/unishi/engineroom)
 "FR" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -6378,7 +6400,7 @@ aw
 by
 bF
 bK
-aU
+dP
 aU
 cd
 ce
