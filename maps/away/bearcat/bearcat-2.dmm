@@ -3183,89 +3183,39 @@
 /turf/simulated/floor/tiled,
 /area/ship/scrap/cargo)
 "fv" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 6;
-	icon_state = "intact"
-	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
 	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 8
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
 	},
 /turf/simulated/floor,
 /area/ship/scrap/crew/hallway/starboard)
 "fw" = (
-/obj/machinery/door/airlock/autoname/bearcat,
-/obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 4;
-	icon_state = "intact"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	pixel_y = 0
-	},
-/turf/simulated/floor,
-/area/ship/scrap/unused)
+/turf/simulated/wall,
+/area/ship/scrap/tcomms)
 "fx" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
-/obj/random/junk,
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 4;
-	icon_state = "intact"
-	},
-/obj/structure/cable{
-	icon_state = "6-8"
-	},
+/obj/machinery/telecomms/broadcaster/map_preset/bearcat,
 /turf/simulated/floor,
-/area/ship/scrap/unused)
+/area/ship/scrap/tcomms)
 "fy" = (
 /obj/machinery/light_switch{
 	pixel_y = 25
 	},
-/obj/random/maintenance,
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 4;
-	icon_state = "intact"
-	},
-/obj/machinery/computer/modular/preset/library,
-/obj/structure/table/standard,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
+/obj/machinery/telecomms/bus/map_preset/bearcat,
 /turf/simulated/floor,
-/area/ship/scrap/unused)
+/area/ship/scrap/tcomms)
 "fz" = (
 /obj/effect/decal/cleanable/cobweb2,
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 10;
-	icon_state = "intact"
-	},
+/obj/machinery/telecomms/hub/map_preset/bearcat,
 /turf/simulated/floor,
-/area/ship/scrap/unused)
+/area/ship/scrap/tcomms)
 "fA" = (
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
-/area/ship/scrap/unused)
+/area/ship/scrap/tcomms)
 "fB" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/sign/warning/hot_exhaust,
@@ -3407,48 +3357,84 @@
 "fO" = (
 /obj/structure/closet/walllocker/emerglocker/west,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 6;
+	icon_state = "intact"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor,
 /area/ship/scrap/crew/hallway/starboard)
 "fP" = (
-/turf/simulated/wall,
-/area/ship/scrap/unused)
-"fQ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/alarm{
+/obj/machinery/door/airlock/autoname/bearcat,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4;
-	icon_state = "alarm0";
-	pixel_x = -24;
-	req_access = newlist()
+	icon_state = "intact"
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor,
-/area/ship/scrap/unused)
-"fR" = (
-/obj/effect/decal/cleanable/generic,
-/obj/item/device/flashlight,
-/obj/structure/skele_stand{
-	anchored = 0;
-	name = "Spookers"
+/area/ship/scrap/tcomms)
+"fQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4;
+	icon_state = "intact"
 	},
 /obj/structure/cable{
-	icon_state = "2-9"
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
 	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1;
-	level = 2
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor,
-/area/ship/scrap/unused)
-"fS" = (
-/obj/random/junk,
+/area/ship/scrap/tcomms)
+"fR" = (
+/obj/effect/decal/cleanable/generic,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 5;
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor,
+/area/ship/scrap/tcomms)
+"fS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4;
 	icon_state = "intact"
 	},
 /turf/simulated/floor,
-/area/ship/scrap/unused)
+/area/ship/scrap/tcomms)
 "fT" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular{
@@ -3464,7 +3450,7 @@
 	icon_state = "intact"
 	},
 /turf/simulated/floor,
-/area/ship/scrap/unused)
+/area/ship/scrap/tcomms)
 "fU" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
@@ -3544,26 +3530,26 @@
 /turf/simulated/floor,
 /area/ship/scrap/crew/hallway/starboard)
 "gb" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
+/obj/machinery/telecomms/processor/map_preset/bearcat,
+/obj/machinery/alarm/server{
 	dir = 1
 	},
-/obj/item/weapon/stool/padded,
 /turf/simulated/floor,
-/area/ship/scrap/unused)
+/area/ship/scrap/tcomms)
 "gc" = (
 /obj/machinery/power/apc/derelict{
 	cell_type = /obj/item/weapon/cell;
 	name = "Medical Bay APC"
 	},
 /obj/structure/cable,
-/obj/machinery/icecream_vat,
+/obj/machinery/telecomms/receiver/map_preset/bearcat,
 /turf/simulated/floor,
-/area/ship/scrap/unused)
+/area/ship/scrap/tcomms)
 "gd" = (
 /obj/random/maintenance,
-/obj/item/weapon/clothingbag/rubbersuit,
+/obj/machinery/telecomms/server/map_preset/bearcat,
 /turf/simulated/floor,
-/area/ship/scrap/unused)
+/area/ship/scrap/tcomms)
 "ge" = (
 /turf/simulated/wall/r_wall,
 /area/ship/scrap/fire)
@@ -13745,7 +13731,7 @@ dB
 dB
 fw
 fP
-fP
+fw
 gk
 gk
 gF

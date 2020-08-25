@@ -65,6 +65,7 @@ em						{font-style: normal;font-weight: bold;}
 .exampleradio			{color: #ff00ff;}
 .verneradio				{color: #738465;}
 .voxradio				{color: #f32b06;}
+.bearcatradio			{color: #590e2d;}
 
 /* Miscellaneous */
 .name					{font-weight: bold;}
