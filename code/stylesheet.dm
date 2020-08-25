@@ -61,6 +61,9 @@ em						{font-style: normal;font-weight: bold;}
 .seciradio				{color: #935050;}
 .mediradio				{color: #509190;}
 
+.hailradio				{color: #cc00aa;}
+.exampleradio			{color: #ff00ff;}
+
 /* Miscellaneous */
 .name					{font-weight: bold;}
 .say					{}
