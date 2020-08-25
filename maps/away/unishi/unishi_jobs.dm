@@ -24,7 +24,7 @@
 	hierarchy_type = /decl/hierarchy/outfit/job/unishi
 	pda_type = /obj/item/modular_computer/pda
 	pda_slot = slot_l_store
-	l_ear = null
+	l_ear = /obj/item/device/radio/headset/map_preset/unishi
 	r_ear = null
 
 /decl/hierarchy/outfit/job/unishi/crew
