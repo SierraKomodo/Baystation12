@@ -23,7 +23,13 @@
 	supervisors = "the trust of your fellow Colonists"
 	info = "You are a Colonist, living on the rim of explored, let alone inhabited, space in a recently landed colony ship."
 	total_positions = 4
-	outfit_type = /decl/hierarchy/outfit/job/colonist
+	outfit_type = /decl/hierarchy/outfit/job/colonist2
+
+/decl/hierarchy/outfit/job/colonist2
+	name = OUTFIT_JOB_NAME("Colonist2")
+	id_type = null
+	pda_type = null
+	l_ear = /obj/item/device/radio/headset/map_preset/playablecolony2
 
 /obj/effect/submap_landmark/spawnpoint/colonist_spawn2
 	name = "Colonist"
