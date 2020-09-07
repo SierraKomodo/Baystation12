@@ -53,6 +53,10 @@
 	broadcasting = 0
 	listening = 0
 
+/obj/item/device/radio/intercom/hailing
+	name = "intercom (Hailing)"
+	frequency = HAIL_FREQ
+
 /obj/item/device/radio/intercom/interrogation
 	name = "intercom (Interrogation)"
 	frequency  = 1449
