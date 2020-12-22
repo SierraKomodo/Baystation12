@@ -113,10 +113,10 @@ proc/age2agedescription(age)
 /mob/var/do_unique_user_handle = 0
 /atom/var/do_unique_target_user
 
-/proc/do_after(mob/user, delay, atom/target, do_flags = DO_DEFAULT, incapacitation_flags = INCAPACITATION_DEFAULT)
-	return !do_after_detailed(user, delay, target, do_flags, incapacitation_flags)
+/proc/do_after(mob/user, delay, atom/target, do_flags = DO_DEFAULT, incapacitation_flags = INCAPACITATION_DEFAULT, decl/hierarchy/skill/do_skill = null, timer_flags = 0)
+	return !do_after_detailed(user, delay, target, do_flags, incapacitation_flags, do_skill, timer_flags)
 
-/proc/do_after_detailed(mob/user, delay, atom/target, do_flags = DO_DEFAULT, incapacitation_flags = INCAPACITATION_DEFAULT)
+/proc/do_after_detailed(mob/user, delay, atom/target, do_flags = DO_DEFAULT, incapacitation_flags = INCAPACITATION_DEFAULT, decl/hierarchy/skill/do_skill = null, timer_flags = 0)
 	if (!delay)
 		return FALSE
 
@@ -133,6 +133,9 @@ proc/age2agedescription(age)
 
 	if ((do_flags & DO_TARGET_UNIQUE_ACT) && target)
 		target.do_unique_target_user = user
+
+	if (timer_flags)
+		delay = do_after_timer(user, delay, target, do_skill, timer_flags)
 
 	var/atom/user_loc = do_flags & DO_USER_CAN_MOVE ? null : user.loc
 	var/user_dir = do_flags & DO_USER_CAN_TURN ? null : user.dir
@@ -203,6 +206,58 @@ proc/age2agedescription(age)
 		user.do_unique_user_handle = 0
 	if ((do_flags & DO_TARGET_UNIQUE_ACT) && target)
 		target.do_unique_target_user = null
+
+
+/proc/do_after_timer(mob/user, delay, atom/target, decl/hierarchy/skill/do_skill = null, timer_flags = 0)
+	var/original_delay = delay
+	var/silent = !!((timer_flags & DO_TIMER_FLAG_SILENT) && user)
+	var/list/shorter_text = list()
+	var/list/longer_text = list()
+
+	if (istype(user, /mob/living))
+		var/mob/living/L = user
+		if (timer_flags & DO_TIMER_FLAG_USER_SIZE_SMALL)
+			if (L.mob_size < MOB_MEDIUM)
+				delay -= DO_TIMER_STEP(original_delay)
+				shorter_text += "smaller size"
+			else if (L.mob_size > MOB_MEDIUM)
+				delay += DO_TIMER_STEP(original_delay)
+				longer_text += "larger size"
+
+		if (timer_flags & DO_TIMER_FLAG_USER_SIZE_LARGE)
+			if (L.mob_size < MOB_MEDIUM)
+				delay += DO_TIMER_STEP(original_delay)
+				longer_text += "smaller size"
+			else if (L.mob_size > MOB_MEDIUM)
+				delay -= DO_TIMER_STEP(original_delay)
+				shorter_text += "larger size"
+
+	if ((timer_flags & DO_TIMER_FLAG_USER_SKILL) && user && do_skill)
+		var/skill_value = user.get_skill_value(do_skill)
+		var/skill_name = initial(do_skill.name)
+		switch (skill_value)
+			if (SKILL_NONE)
+				delay += DO_TIMER_STEP(original_delay) * 2
+				longer_text += "lack of [skill_name] training"
+			if (SKILL_BASIC)
+				delay += DO_TIMER_STEP(original_delay)
+				longer_text += "[skill_name] inexperience"
+			if (SKILL_EXPERT)
+				delay -= DO_TIMER_STEP(original_delay)
+				shorter_text += "[skill_name] experience"
+			if (SKILL_PROF)
+				delay -= DO_TIMER_STEP(original_delay) * 2
+				shorter_text += "[skill_name] mastery"
+
+	log_debug("Timer [original_delay] adjusted to [delay]")
+	if (!silent)
+		if (shorter_text.len)
+			user.show_message(SPAN_NOTICE("Your [english_list(shorter_text)] makes the process faster."))
+		if (longer_text.len)
+			user.show_message(SPAN_WARNING("Your [english_list(longer_text)] makes the process longer."))
+
+	return max(delay, DO_TIMER_MIN)
+
 
 /proc/able_mobs_in_oview(var/origin)
 	var/list/mobs = list()

@@ -521,7 +521,7 @@ its easier to just keep the beam vertical.
 	user.visible_message("<span class='warning'>\The [user] starts climbing onto \the [src]!</span>")
 	LAZYDISTINCTADD(climbers,user)
 
-	if(!do_after(user,(issmall(user) ? MOB_CLIMB_TIME_SMALL : MOB_CLIMB_TIME_MEDIUM) * climb_speed_mult, src))
+	if(!do_after(user, DO_TIMER_SHORT * climb_speed_mult, src, do_skill = SKILL_HAULING, timer_flags = DO_TIMER_FLAG_USER_SIZE_SMALL | DO_TIMER_FLAG_USER_SKILL))
 		LAZYREMOVE(climbers,user)
 		return 0
 
