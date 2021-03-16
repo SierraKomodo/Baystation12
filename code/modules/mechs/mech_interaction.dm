@@ -21,7 +21,7 @@
 	if(body)
 		if(!body.MouseDrop(over_object))
 			return ..()
-	
+
 /mob/living/exosuit/RelayMouseDrag(src_object, over_object, src_location, over_location, src_control, over_control, params, var/mob/user)
 	if(user && (user in pilots) && user.loc == src)
 		return OnMouseDrag(src_object, over_object, src_location, over_location, src_control, over_control, params, user)
@@ -61,8 +61,8 @@
 	. = ..()
 	if(!hatch_closed)
 		return max(shared_living_nano_distance(src_object), .) //Either visible to mech(outside) or visible to user (inside)
-	
-	
+
+
 /mob/living/exosuit/ClickOn(var/atom/A, var/params, var/mob/user)
 
 	if(!user || incapacitated() || user.incapacitated())
@@ -75,20 +75,20 @@
 	if(modifiers["shift"])
 		user.examinate(A)
 		return
-		
+
 	if(modifiers["ctrl"])
 		if(selected_system)
 			if(selected_system == A)
 				selected_system.CtrlClick(user)
 				setClickCooldown(3)
-			return	
+			return
 
 	if(!(user in pilots) && user != src)
 		return
 
 	if(!canClick())
 		return
-	
+
 	// Are we facing the target?
 	if(A.loc != src && !(get_dir(src, A) & dir))
 		return
@@ -348,8 +348,7 @@
 					return
 
 				visible_message(SPAN_WARNING("\The [user] begins unwrenching the securing bolts holding \the [src] together."))
-				var/delay = 60 * user.skill_delay_mult(SKILL_DEVICES)
-				if(!do_after(user, delay) || !maintenance_protocols)
+				if(!do_after(user, DO_TIMER_SHORT, src, DO_PUBLIC_UNIQUE, do_skill = SKILL_DEVICES, timer_flags = DO_TIMER_FLAG_USER_SKILL) || !maintenance_protocols)
 					return
 				visible_message(SPAN_NOTICE("\The [user] loosens and removes the securing bolts, dismantling \the [src]."))
 				dismantle()
@@ -383,8 +382,7 @@
 				if(!body || !body.cell)
 					to_chat(user, SPAN_WARNING("There is no cell here for you to remove!"))
 					return
-				var/delay = 20 * user.skill_delay_mult(SKILL_DEVICES)
-				if(!do_after(user, delay) || !maintenance_protocols || !body || !body.cell)
+				if(!do_after(user, DO_TIMER_QUICK, src, DO_PUBLIC_UNIQUE, do_skill = SKILL_DEVICES, timer_flags = DO_TIMER_FLAG_USER_SKILL) || !maintenance_protocols || !body || !body.cell)
 					return
 
 				user.put_in_hands(body.cell)
@@ -399,9 +397,8 @@
 					return
 				if(!body) //Error
 					return
-				var/delay = min(50 * user.skill_delay_mult(SKILL_DEVICES), 50 * user.skill_delay_mult(SKILL_EVA))
 				visible_message(SPAN_NOTICE("\The [user] starts forcing the \the [src]'s emergency [body.hatch_descriptor] release using \the [thing]."))
-				if(!do_after(user, delay, src, DO_DEFAULT | DO_PUBLIC_PROGRESS))
+				if(!do_after(user, DO_TIMER_SHORT, src, DO_PUBLIC_UNIQUE, do_skill = SKILL_DEVICES, DO_TIMER_FLAG_USER_SKILL))
 					return
 				visible_message(SPAN_NOTICE("\The [user] forces \the [src]'s [body.hatch_descriptor] open using the \the [thing]."))
 				playsound(user.loc, 'sound/machines/bolts_up.ogg', 25, 1)
@@ -419,7 +416,7 @@
 				if(!body || body.cell)
 					to_chat(user, SPAN_WARNING("There is already a cell in there!"))
 					return
-				
+
 				if(user.unEquip(thing))
 					thing.forceMove(body)
 					body.cell = thing
