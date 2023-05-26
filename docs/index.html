@@ -30,7 +30,7 @@ General Public License version 3.
 
 <h3 id="modules">Modules
 <aside>(216 modules,
-    221/4380 macros, 5%)</aside></h3>
+    226/4384 macros, 5.2%)</aside></h3>
 <ul class="index-tree modules">
     <li><a href="(builtins).html" title="(builtins)">(builtins)</a></li>
     <li class="has-children"><span title="code">code</span><ul class="index-tree">
@@ -361,7 +361,7 @@ General Public License version 3.
 
 
 <h3 id="types">Types
-<aside>(263 detailed/532 documented/20256 total, 2.6%)</aside></h3>
+<aside>(269 detailed/538 documented/20229 total, 2.7%)</aside></h3>
 <ul class="index-tree">
     <li><a href="global.html" title="(global)">(global)</a></li>
     <li class="has-children"><a href="area.html" title="&#x2F;area">area</a><ul class="index-tree">
@@ -523,6 +523,7 @@ remove_extension(atom, /datum/extension/scent)<ul class="index-tree">
     <li><span class="no-substance" title="&#x2F;datum&#x2F;gear&#x2F;utility&#x2F;pencilcase">pencilcase</span> - Pouches and kits</li>
     </ul></li>
     </ul></li>
+    <li><a href="datum/gender.html" title="&#x2F;datum&#x2F;gender">gender</a></li>
     <li class="has-children"><span class="no-substance" title="&#x2F;datum&#x2F;ghosttrap">ghosttrap</span><ul class="index-tree">
     <li><span class="no-substance" title="&#x2F;datum&#x2F;ghosttrap&#x2F;borer">borer</span> - Cortical Borer</li>
     <li><span class="no-substance" title="&#x2F;datum&#x2F;ghosttrap&#x2F;drone">drone</span> - Maintenance Drone</li>
@@ -692,6 +693,7 @@ Called in card.dm when someone's card is terminated at the HoP's desk.
 Parameters: var/obj/item/card/id</li>
     </ul></li>
     <li><a href="image.html" title="&#x2F;image">image</a></li>
+    <li><a href="material.html" title="&#x2F;material">material</a></li>
     <li><a href="matrix.html" title="&#x2F;matrix">matrix</a></li>
     <li class="has-children"><a href="mob.html" title="&#x2F;mob">mob</a><ul class="index-tree">
     <li class="has-children"><a href="mob/living.html" title="&#x2F;mob&#x2F;living">living</a><ul class="index-tree">
@@ -860,7 +862,6 @@ TO-DO -- Using it as a power measurement tool for cables etc. Nannek.</li>
     </ul></li>
     <li><span class="no-substance">hand&#x2F;</span><span class="no-substance" title="&#x2F;obj&#x2F;item&#x2F;hand&#x2F;missing_card">missing_card</span> - A special thing that steals a card from a deck, probably lost in maint somewhere.</li>
     <li><a href="obj/item/hand_labeler.html" title="&#x2F;obj&#x2F;item&#x2F;hand_labeler">hand_labeler</a></li>
-    <li><span class="no-substance">holder&#x2F;</span><a href="obj/item/holder/gear.html" title="&#x2F;obj&#x2F;item&#x2F;holder&#x2F;gear">gear</a></li>
     <li><a href="obj/item/light.html" title="&#x2F;obj&#x2F;item&#x2F;light">light</a></li>
     <li class="has-children"><span title="&#x2F;obj&#x2F;item&#x2F;material">material</span><ul class="index-tree">
     <li><span class="no-substance">armblade&#x2F;</span><a href="obj/item/material/armblade/wrist.html" title="&#x2F;obj&#x2F;item&#x2F;material&#x2F;armblade&#x2F;wrist">wrist</a></li>
@@ -958,6 +959,7 @@ become more useful.</li>
     <li><span class="no-substance" title="&#x2F;obj&#x2F;item&#x2F;slimepotion">slimepotion</span> - Pet Slime Creation</li>
     <li class="has-children"><a href="obj/item/stack.html" title="&#x2F;obj&#x2F;item&#x2F;stack">stack</a><ul class="index-tree">
     <li><a href="obj/item/stack/cable_coil.html" title="&#x2F;obj&#x2F;item&#x2F;stack&#x2F;cable_coil">cable_coil</a></li>
+    <li><a href="obj/item/stack/material.html" title="&#x2F;obj&#x2F;item&#x2F;stack&#x2F;material">material</a></li>
     </ul></li>
     <li class="has-children"><span title="&#x2F;obj&#x2F;item&#x2F;stock_parts">stock_parts</span><ul class="index-tree">
     <li><span class="no-substance">circuitboard&#x2F;</span><a href="obj/item/stock_parts/circuitboard/air_management.html" title="&#x2F;obj&#x2F;item&#x2F;stock_parts&#x2F;circuitboard&#x2F;air_management">air_management</a></li>
@@ -1014,7 +1016,10 @@ files in particular are also available.<ul class="index-tree">
 //PROTOLATHE SCREENS///////
 CIRCUIT IMPRINTER SCREENS//
 Research Information Browser//</li>
-    <li><span class="no-substance">ship&#x2F;</span><a href="obj/machinery/computer/ship/helm.html" title="&#x2F;obj&#x2F;machinery&#x2F;computer&#x2F;ship&#x2F;helm">helm</a></li>
+    <li class="has-children"><span title="&#x2F;obj&#x2F;machinery&#x2F;computer&#x2F;ship">ship</span><ul class="index-tree">
+    <li><a href="obj/machinery/computer/ship/disperser.html" title="&#x2F;obj&#x2F;machinery&#x2F;computer&#x2F;ship&#x2F;disperser">disperser</a></li>
+    <li><a href="obj/machinery/computer/ship/helm.html" title="&#x2F;obj&#x2F;machinery&#x2F;computer&#x2F;ship&#x2F;helm">helm</a></li>
+    </ul></li>
     <li><a href="obj/machinery/computer/teleporter.html" title="&#x2F;obj&#x2F;machinery&#x2F;computer&#x2F;teleporter">teleporter</a></li>
     </ul></li>
     <li><a href="obj/machinery/conveyor.html" title="&#x2F;obj&#x2F;machinery&#x2F;conveyor">conveyor</a></li>
@@ -1126,6 +1131,10 @@ crafting of items.<ul class="index-tree">
     <li><span class="no-substance" title="&#x2F;singleton&#x2F;memory_options">memory_options</span> - Memory Options</li>
     <li><a href="singleton/rank_category.html" title="&#x2F;singleton&#x2F;rank_category">rank_category</a> - Categories of ranks</li>
     <li><span class="no-substance" title="&#x2F;singleton&#x2F;scent_intensity">scent_intensity</span> - Scent intensity</li>
+    <li class="has-children"><a href="singleton/shared_list.html" title="&#x2F;singleton&#x2F;shared_list">shared_list</a><ul class="index-tree">
+    <li><a href="singleton/shared_list/path.html" title="&#x2F;singleton&#x2F;shared_list&#x2F;path">path</a></li>
+    <li><a href="singleton/shared_list/sound.html" title="&#x2F;singleton&#x2F;shared_list&#x2F;sound">sound</a></li>
+    </ul></li>
     <li><a href="singleton/state_transition.html" title="&#x2F;singleton&#x2F;state_transition">state_transition</a> - Used to connect <code>/singleton/state</code>s together so the FSM knows what state to switch to, and on what conditions.
 On a directed graph, these would be the arrows connecting the nodes representing states.</li>
     <li class="has-children"><a href="singleton/trait.html" title="&#x2F;singleton&#x2F;trait">trait</a><ul class="index-tree">
@@ -1152,7 +1161,7 @@ On a directed graph, these would be the arrows connecting the nodes representing
 </main>
 <footer>
     baystation12.dme
-    <a href="https://github.com/SierraKomodo/Baystation12/tree/a2e3e017388d031991c4ab84b2db5b54b639e2e3">a2e3e01</a>
+    <a href="https://github.com/SierraKomodo/Baystation12/tree/98a1c0a63b9d6bd528be1b8cc94beaf4f3549ceb">98a1c0a</a>
         (dev) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.4.1</a></footer>
 </body>
 </html>
