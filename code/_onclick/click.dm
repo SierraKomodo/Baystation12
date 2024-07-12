@@ -148,7 +148,8 @@
 	// A is a turf or is on a turf, or in something on a turf (pen in a box); but not something in something on a turf (pen in a box in a backpack)
 	sdepth = A.storage_depth_turf()
 	if(isturf(A) || isturf(A.loc) || (sdepth != -1 && sdepth <= 1))
-		if(A.Adjacent(src)) // see adjacent.dm
+		var/adjacent = A.Adjacent(src)
+		if (adjacent) // see adjacent.dm
 			if(W)
 				// Return TRUE in resolve_attackby() to prevent afterattack() effects (when safely moving items for example)
 				var/resolved = W.resolve_attackby(A,src, modifiers)
@@ -163,7 +164,8 @@
 			return
 		else // non-adjacent click
 			if(W)
-				W.afterattack(A, src, 0, modifiers) // 0: not Adjacent
+				if (!W.use_on_distant(A, src, modifiers, FALSE) && !A.use_distant(W, src, modifiers, FALSE))
+					W.afterattack(A, src, 0, modifiers) // 0: not Adjacent
 			else
 				RangedAttack(A, modifiers)
 
