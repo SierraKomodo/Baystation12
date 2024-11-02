@@ -120,10 +120,10 @@
 #define MATERIAL_LIGHT    	18
 
 //Construction difficulty
-#define MATERIAL_EASY_DIY 		0
-#define MATERIAL_NORMAL_DIY    	1
-#define MATERIAL_HARD_DIY    	2
-#define MATERIAL_VERY_HARD_DIY 	3
+#define MATERIAL_EASY_DIY 		2
+#define MATERIAL_NORMAL_DIY    	3
+#define MATERIAL_HARD_DIY    	4
+#define MATERIAL_VERY_HARD_DIY 	5
 
 //Stack flags
 #define USE_MATERIAL_COLOR            FLAG(0)
