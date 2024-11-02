@@ -245,7 +245,7 @@
 			if(cut_delay < 0)
 				cut_delay = 0
 
-			if (do_after(user, cut_delay, src, strict_timer_flags ? DO_PUBLIC_UNIQUE : DO_REPAIR_CONSTRUCT))
+			if (user.do_skilled(cut_delay, SKILL_CONSTRUCTION, src, do_flags = strict_timer_flags ? DO_PUBLIC_UNIQUE : DO_REPAIR_CONSTRUCT) && user.use_sanity_check(src, W))
 				dismantle_wall()
 				user.visible_message(SPAN_WARNING("\The [src] was torn open by [user]!"), SPAN_NOTICE("You remove the outer plating."))
 			return TRUE
