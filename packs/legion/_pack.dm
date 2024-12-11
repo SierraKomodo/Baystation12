@@ -5,5 +5,6 @@
 
 #include "mob/legion_hivebot.dm"
 #include "mob/legion_mob.dm"
+#include "mob/legion_reaver.dm"
 
 #include "object/legion_beacon.dm"
