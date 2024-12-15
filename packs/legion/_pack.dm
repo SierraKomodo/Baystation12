@@ -14,6 +14,7 @@
 #include "mob/legion_hivebot.dm"
 #include "mob/legion_mob.dm"
 #include "mob/legion_speculator.dm"
+#include "mob/legion_swarmer.dm"
 
 #include "object/legion_beacon.dm"
 #include "object/legion_implant.dm"
