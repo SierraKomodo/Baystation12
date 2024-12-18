@@ -3350,14 +3350,6 @@
 /obj/structure/filingcabinet/chestdrawer{
 	dir = 1
 	},
-/obj/item/folder/blue,
-/obj/item/folder/red,
-/obj/item/folder,
-/obj/item/folder/nt,
-/obj/item/folder/yellow,
-/obj/item/folder/white,
-/obj/item/folder/white,
-/obj/item/folder/white,
 /obj/floor_decal/corner/paleblue/mono,
 /turf/simulated/floor/tiled/white/monotile,
 /area/tempeterra/medical/lockers)
@@ -4820,9 +4812,6 @@
 /turf/simulated/floor,
 /area/tempeterra/medical/hallway)
 "uT" = (
-/obj/machinery/constructable_frame/machine_frame{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/cap/visible/fuel{
 	dir = 8
 	},
@@ -7265,7 +7254,6 @@
 	pixel_y = -22
 	},
 /obj/structure/table/steel_reinforced,
-/obj/item/folder/blue,
 /obj/floor_decal/corner/paleblue/mono,
 /obj/structure/window/reinforced{
 	dir = 8
@@ -8893,12 +8881,6 @@
 /obj/structure/filingcabinet/chestdrawer{
 	dir = 1
 	},
-/obj/item/folder/blue,
-/obj/item/folder/red,
-/obj/item/folder,
-/obj/item/folder/nt,
-/obj/item/folder/yellow,
-/obj/item/folder/white,
 /obj/floor_decal/corner/paleblue/mono,
 /obj/floor_decal/industrial/outline/grey,
 /obj/structure/sign/deck/second{
@@ -11913,12 +11895,6 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tempeterra/command/cic)
-"WU" = (
-/obj/machinery/constructable_frame/machine_frame{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/tempeterra/engineering/reactor/onecore)
 "WV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 8
@@ -12153,9 +12129,6 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/tempeterra/medical/storage)
 "XJ" = (
-/obj/machinery/constructable_frame/machine_frame{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/cap/visible/fuel{
 	dir = 8
 	},
@@ -12330,12 +12303,6 @@
 /obj/item/boombox,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tempeterra/seconddeck/hallway/ladder/starboard)
-"Zg" = (
-/obj/machinery/constructable_frame/machine_frame{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/tempeterra/engineering/reactor/twocore)
 "Zi" = (
 /obj/wallframe_spawn/reinforced_phoron/ocp,
 /obj/paint/silver,
@@ -21911,9 +21878,9 @@ iK
 iK
 iK
 ki
-WU
+HS
 uT
-WU
+HS
 ki
 iK
 TT
@@ -21925,9 +21892,9 @@ TT
 TT
 SY
 yk
-Zg
+ZL
 XJ
-Zg
+ZL
 yk
 SY
 SY
@@ -21992,11 +21959,11 @@ oG
 iK
 iK
 nf
-WU
-WU
-WU
-WU
-WU
+HS
+HS
+HS
+HS
+HS
 cb
 TT
 TT
@@ -22006,11 +21973,11 @@ TT
 TT
 TT
 zC
-Zg
-Zg
-Zg
-Zg
-Zg
+ZL
+ZL
+ZL
+ZL
+ZL
 Jr
 SY
 SY
@@ -22074,11 +22041,11 @@ oG
 iK
 iK
 nf
-WU
-WU
-WU
-WU
-WU
+HS
+HS
+HS
+HS
+HS
 cb
 TT
 TT
@@ -22088,11 +22055,11 @@ TT
 TT
 TT
 zC
-Zg
-Zg
-Zg
-Zg
-Zg
+ZL
+ZL
+ZL
+ZL
+ZL
 Jr
 SY
 SY
@@ -22156,11 +22123,11 @@ oG
 iK
 iK
 nf
-WU
-WU
-WU
-WU
-WU
+HS
+HS
+HS
+HS
+HS
 cb
 yA
 oG
@@ -22170,11 +22137,11 @@ No
 oG
 yA
 zC
-Zg
-Zg
-Zg
-Zg
-Zg
+ZL
+ZL
+ZL
+ZL
+ZL
 Jr
 SY
 SY

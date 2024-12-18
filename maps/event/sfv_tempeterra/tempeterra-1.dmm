@@ -1,25 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"al" = (
-/obj/machinery/atmospherics/binary/pump/on{
-	target_pressure = 200;
-	dir = 1
-	},
-/obj/machinery/light,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/floor_decal/industrial/warning{
-	dir = 5
-	},
-/obj/structure/railing/mapped{
-	dir = 1;
-	icon_state = "railing0-1"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/tempeterra/shuttle)
 "ap" = (
 /obj/floor_decal/borderfloorblack{
 	dir = 8
@@ -32,16 +11,6 @@
 "aq" = (
 /turf/simulated/floor,
 /area/tempeterra/hangar)
-"at" = (
-/obj/machinery/porta_turret/stationary,
-/obj/floor_decal/industrial/warning/cee{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
-	id_tag = "charon_shuttle_pump_out_external"
-	},
-/turf/simulated/floor/reinforced,
-/area/tempeterra/shuttle)
 "aC" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/tempeterra/brig/port)
@@ -101,18 +70,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/robotics)
-"bi" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 6
-	},
-/obj/machinery/meter,
-/obj/structure/table/steel_reinforced,
-/obj/item/clothing/head/helmet/solgov/pilot/fleet{
-	pixel_y = 9
-	},
-/obj/item/clothing/glasses/aviators_black,
-/turf/simulated/floor/tiled/steel_grid,
-/area/tempeterra/shuttle)
 "bp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -171,23 +128,6 @@
 /obj/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/techfloor,
 /area/tempeterra/atmos/atmos)
-"bM" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/cyan{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/obj/structure/fuel_port{
-	pixel_y = -32
-	},
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/tempeterra/shuttle/fuel)
 "bP" = (
 /obj/floor_decal/industrial/warning/corner{
 	dir = 8
@@ -215,13 +155,6 @@
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/tempeterra/atmos/atmos)
-"bV" = (
-/obj/paint/sfv_arbiter,
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 5
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle/fuel)
 "bW" = (
 /obj/machinery/floor_light/mapped_on,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -266,20 +199,6 @@
 /obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/tempeterra/hallway/firstdeck/stairs)
-"cl" = (
-/obj/machinery/power/smes/buildable/preset/torch/shuttle{
-	RCon_tag = "Shuttle - BumbleBee"
-	},
-/obj/floor_decal/industrial/hatch/yellow,
-/obj/structure/cable/cyan{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/tempeterra/shuttle/fuel)
 "cm" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/dark,
@@ -327,16 +246,6 @@
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/tempeterra/atmos/atmos)
-"cH" = (
-/obj/paint/black,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle)
 "cL" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal{
 	dir = 4
@@ -416,15 +325,6 @@
 /obj/paint/sfv_arbiter,
 /turf/simulated/wall/ocp_wall,
 /area/tempeterra/atmos/monitoring)
-"dO" = (
-/obj/machinery/meter,
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 8
-	},
-/obj/catwalk_plated,
-/obj/floor_decal/industrial/warning/fulltile,
-/turf/simulated/floor,
-/area/tempeterra/shuttle)
 "dU" = (
 /obj/structure/bed/chair/shuttle/black{
 	dir = 1
@@ -538,41 +438,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hallway/firstdeck/fore/starboard)
-"eR" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/universal,
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 21
-	},
-/obj/floor_decal/borderfloorblack{
-	dir = 6
-	},
-/obj/floor_decal/corner/blue/border{
-	dir = 6
-	},
-/obj/machinery/light,
-/obj/structure/bed/chair/shuttle/black{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/tempeterra/shuttle)
-"eX" = (
-/obj/paint/sfv_arbiter,
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle/fuel)
-"ff" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
-	id_tag = "charon_shuttle_pump"
-	},
-/obj/structure/bed/chair/shuttle/black,
-/obj/floor_decal/borderfloorblack{
-	dir = 1
-	},
-/obj/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/tempeterra/shuttle)
 "fg" = (
 /obj/machinery/computer/air_control{
 	input_tag = "h2_in";
@@ -873,25 +738,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/meeting)
-"hS" = (
-/obj/machinery/computer/ship/engines{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 8
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 21
-	},
-/obj/floor_decal/corner_techfloor_gray{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/steel_ridged,
-/area/tempeterra/shuttle)
 "hY" = (
 /obj/floor_decal/borderfloorblack,
 /obj/floor_decal/corner/paleblue/border,
@@ -901,19 +747,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hallway/firstdeck/ladder/port)
-"ih" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 1
-	},
-/obj/structure/bed/chair/shuttle/black,
-/obj/floor_decal/techfloor{
-	dir = 1
-	},
-/obj/floor_decal/spline/fancy/black{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/tempeterra/shuttle)
 "in" = (
 /obj/floor_decal/industrial/warning,
 /turf/simulated/floor/reinforced/carbon_dioxide,
@@ -953,21 +786,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tempeterra/atmos/monitoring)
-"iF" = (
-/obj/floor_decal/borderfloorblack{
-	dir = 8
-	},
-/obj/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/floor_decal/techfloor{
-	dir = 4
-	},
-/obj/floor_decal/spline/fancy/black{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
 "iW" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/tableflag,
@@ -1020,18 +838,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/meeting)
-"jd" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
-	dir = 1;
-	id_tag = "charon_shuttle_pump"
-	},
-/obj/structure/bed/chair/shuttle/black{
-	dir = 1
-	},
-/obj/floor_decal/borderfloorblack,
-/obj/floor_decal/corner/blue/border,
-/turf/simulated/floor/tiled/dark,
-/area/tempeterra/shuttle)
 "jf" = (
 /obj/floor_decal/techfloor{
 	dir = 1
@@ -1149,15 +955,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tempeterra/robotics)
-"kc" = (
-/obj/paint/sfv_arbiter,
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle/fuel)
 "kh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -1334,31 +1131,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tempeterra/brig/port)
-"lV" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
-	dir = 1;
-	id_tag = "charon_shuttle_pump"
-	},
-/obj/floor_decal/borderfloorblack/corner{
-	dir = 8
-	},
-/obj/floor_decal/borderfloorblack/corner,
-/obj/floor_decal/industrial/warning,
-/obj/structure/extinguisher_cabinet{
-	pixel_x = 25;
-	pixel_y = -32
-	},
-/turf/simulated/floor/tiled/dark,
-/area/tempeterra/shuttle)
-"mg" = (
-/obj/paint/sfv_arbiter,
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle/fuel)
 "mi" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -1411,10 +1183,6 @@
 /obj/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hangar)
-"mS" = (
-/obj/paint/black,
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle)
 "mT" = (
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hallway/firstdeck/fore/port)
@@ -1463,11 +1231,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tempeterra/brig/port)
-"ni" = (
-/obj/paint/sfv_arbiter,
-/obj/structure/sign/solgov,
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle)
 "nm" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/machinery/atmospherics/pipe/simple/visible/universal{
@@ -1523,31 +1286,6 @@
 	},
 /turf/simulated/floor/reinforced/hydrogen/fuel,
 /area/tempeterra/atmos/atmos)
-"nF" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
-	dir = 1;
-	id_tag = "charon_shuttle_pump"
-	},
-/obj/machinery/light,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/structure/closet/crate/secure/shuttle{
-	dir = 8;
-	req_access = list("ACCESS_TORCH_GUP")
-	},
-/obj/floor_decal/corner/paleblue/mono,
-/obj/floor_decal/industrial/outline/yellow,
-/obj/item/cell/hyper,
-/obj/item/cell/hyper,
-/obj/item/inflatable_dispenser,
-/obj/item/inflatable_dispenser,
-/obj/item/gun/projectile/flare,
-/obj/item/storage/box/ammo/flashshells,
-/obj/item/tape_roll,
-/obj/item/roller_bed,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/tempeterra/shuttle)
 "nG" = (
 /obj/floor_decal/industrial/warning/corner{
 	dir = 8
@@ -1586,18 +1324,6 @@
 	},
 /turf/simulated/floor/reinforced/hydrogen/fuel,
 /area/tempeterra/atmos/atmos)
-"oD" = (
-/obj/paint/sfv_arbiter,
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 9
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle)
-"oG" = (
-/obj/paint/black,
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle/fuel)
 "oH" = (
 /obj/floor_decal/industrial/warning{
 	dir = 9
@@ -1605,27 +1331,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/reinforced/nitrogen,
 /area/tempeterra/atmos/atmos)
-"oP" = (
-/obj/floor_decal/borderfloorblack{
-	dir = 8
-	},
-/obj/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/floor_decal/techfloor{
-	dir = 4
-	},
-/obj/floor_decal/techfloor/corner{
-	dir = 4
-	},
-/obj/floor_decal/spline/fancy/black/corner{
-	dir = 1
-	},
-/obj/structure/handrail{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
 "oU" = (
 /obj/catwalk_plated/dark,
 /obj/machinery/floor_light/mapped_on,
@@ -1666,22 +1371,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hallway/firstdeck/stairs)
-"pc" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 5
-	},
-/obj/machinery/power/terminal,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/obj/structure/cable/yellow{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/catwalk_plated/dark,
-/obj/floor_decal/industrial/warning/fulltile,
-/turf/simulated/floor,
-/area/tempeterra/shuttle/fuel)
 "pm" = (
 /obj/floor_decal/borderfloorblack,
 /obj/floor_decal/corner/red/border,
@@ -1706,23 +1395,6 @@
 /obj/catwalk_plated/dark,
 /turf/simulated/floor,
 /area/tempeterra/hangar)
-"pr" = (
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/floor_decal/borderfloorblack{
-	dir = 5
-	},
-/obj/floor_decal/corner/blue/border{
-	dir = 5
-	},
-/obj/machinery/light{
-	dir = 1;
-	icon_state = "tube1"
-	},
-/obj/structure/bed/chair/shuttle/black{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/tempeterra/shuttle)
 "pt" = (
 /obj/wallframe_spawn/reinforced_phoron,
 /obj/machinery/door/blast/regular{
@@ -1749,13 +1421,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hallway/firstdeck/stairs)
-"pE" = (
-/obj/paint/sfv_arbiter,
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 5
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle)
 "pN" = (
 /obj/machinery/door/airlock{
 	dir = 4
@@ -1872,21 +1537,6 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/tempeterra/hallway/firstdeck/fore/starboard)
-"qM" = (
-/obj/paint/sfv_arbiter,
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle)
-"qP" = (
-/obj/machinery/light{
-	dir = 1;
-	icon_state = "tube1"
-	},
-/obj/machinery/computer/modular/preset/cardslot/command{
-	dir = 4
-	},
-/obj/floor_decal/corner/paleblue/mono,
-/turf/simulated/floor/tiled/dark,
-/area/tempeterra/shuttle)
 "qQ" = (
 /obj/floor_decal/borderfloorblack,
 /obj/floor_decal/corner/paleblue/border,
@@ -1966,29 +1616,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hallway/firstdeck/fore/starboard)
-"rp" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
-	dir = 8
-	},
-/obj/machinery/light{
-	dir = 1;
-	icon_state = "tube1"
-	},
-/obj/catwalk_plated/dark,
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/obj/machinery/power/apc/tempeterra{
-	dir = 1;
-	pixel_y = 24
-	},
-/obj/structure/cable/cyan{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/floor_decal/industrial/warning/fulltile,
-/turf/simulated/floor,
-/area/tempeterra/shuttle/fuel)
 "rw" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/floor_decal/corner_techfloor_gray{
@@ -2041,18 +1668,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tempeterra/atmos/atmos)
-"rN" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 1
-	},
-/obj/floor_decal/techfloor{
-	dir = 1
-	},
-/obj/floor_decal/spline/fancy/black{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/tempeterra/shuttle)
 "rR" = (
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hallway/firstdeck/ladder/starboard)
@@ -2060,13 +1675,6 @@
 /obj/paint/black,
 /turf/simulated/wall/ocp_wall,
 /area/tempeterra/hallway/firstdeck/stairs)
-"sa" = (
-/obj/paint/sfv_arbiter,
-/obj/machinery/atmospherics/pipe/simple/hidden/red{
-	dir = 9
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle)
 "sE" = (
 /obj/floor_decal/techfloor/orange,
 /obj/floor_decal/techfloor/orange{
@@ -2127,17 +1735,6 @@
 	},
 /turf/simulated/floor/reinforced/hydrogen/fuel,
 /area/tempeterra/atmos/atmos)
-"sZ" = (
-/obj/machinery/light{
-	dir = 1;
-	icon_state = "tube1"
-	},
-/obj/machinery/computer/shuttle_control/explore/sfc_wolfe,
-/obj/floor_decal/corner_techfloor_gray{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/steel_ridged,
-/area/tempeterra/shuttle)
 "tb" = (
 /obj/floor_decal/steeldecal/steel_decals_central2,
 /obj/floor_decal/industrial/warning{
@@ -2242,16 +1839,6 @@
 /obj/machinery/portable_atmospherics/canister/empty/hydrogen,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tempeterra/atmos/atmos)
-"tY" = (
-/obj/floor_decal/industrial/outline/blue,
-/obj/machinery/atmospherics/unary/tank/air{
-	dir = 4
-	},
-/obj/floor_decal/techfloor{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle/fuel)
 "tZ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -2356,25 +1943,6 @@
 /obj/structure/catwalk,
 /turf/space,
 /area/tempeterra/hangar)
-"uV" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/obj/floor_decal/industrial/warning{
-	dir = 9
-	},
-/obj/structure/railing/mapped{
-	dir = 1;
-	icon_state = "railing0-1"
-	},
-/obj/floor_decal/techfloor{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
 "vc" = (
 /obj/floor_decal/techfloor{
 	dir = 8
@@ -2469,25 +2037,6 @@
 /obj/catwalk_plated/dark,
 /turf/simulated/floor,
 /area/tempeterra/robotics)
-"vC" = (
-/obj/machinery/atmospherics/binary/pump{
-	dir = 8
-	},
-/obj/item/stack/material/tritium/fifty,
-/obj/structure/closet/walllocker{
-	pixel_y = 30;
-	name = "Radioactive Fuel Locker"
-	},
-/obj/item/stack/material/tritium/fifty,
-/turf/simulated/floor/tiled/techfloor,
-/area/tempeterra/shuttle/fuel)
-"vD" = (
-/obj/paint/sfv_arbiter,
-/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
-	dir = 8
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle)
 "vF" = (
 /obj/machinery/door/airlock{
 	dir = 8
@@ -2555,19 +2104,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/atmos/monitoring)
-"vV" = (
-/obj/machinery/porta_turret/stationary,
-/obj/floor_decal/industrial/warning/cee,
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	controlled = 0;
-	dir = 1;
-	icon_state = "map_vent_in";
-	pressure_checks = 2;
-	pressure_checks_default = 2;
-	use_power = 1
-	},
-/turf/simulated/floor/reinforced,
-/area/tempeterra/shuttle)
 "vW" = (
 /obj/machinery/atmospherics/omni/mixer{
 	active_power_usage = 7500;
@@ -2689,19 +2225,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tempeterra/brig/port)
-"xf" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden,
-/obj/structure/bed/chair/shuttle/black{
-	dir = 1
-	},
-/obj/floor_decal/techfloor,
-/obj/floor_decal/spline/fancy/black,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/tempeterra/shuttle)
-"xm" = (
-/obj/paint/black,
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle/fuel)
 "xo" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/floor_decal/industrial/warning,
@@ -2714,25 +2237,6 @@
 	},
 /turf/simulated/wall/ocp_wall,
 /area/tempeterra/atmos/atmos)
-"xu" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
-	id_tag = "charon_shuttle_pump"
-	},
-/obj/floor_decal/borderfloorblack/corner{
-	dir = 4
-	},
-/obj/floor_decal/borderfloorblack/corner{
-	dir = 1
-	},
-/obj/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/structure/extinguisher_cabinet{
-	pixel_x = 25;
-	pixel_y = 32
-	},
-/turf/simulated/floor/tiled/dark,
-/area/tempeterra/shuttle)
 "xH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
@@ -3165,14 +2669,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tempeterra/atmos/atmos)
-"Bm" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 5
-	},
-/obj/floor_decal/techfloor,
-/obj/floor_decal/spline/fancy/black,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/tempeterra/shuttle)
 "Bn" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -3211,22 +2707,6 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/techmaint,
 /area/tempeterra/atmos/atmos)
-"BH" = (
-/obj/machinery/door/airlock,
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/cyan,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/tempeterra/shuttle/fuel)
 "BI" = (
 /obj/machinery/atmospherics/pipe/zpipe/up/fuel{
 	dir = 8
@@ -3284,14 +2764,6 @@
 /obj/structure/closet/secure_closet/guncabinet/PPE,
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hallway/firstdeck/stairs)
-"BX" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/universal{
-	dir = 4
-	},
-/obj/catwalk_plated,
-/obj/floor_decal/industrial/warning/fulltile,
-/turf/simulated/floor,
-/area/tempeterra/shuttle)
 "BZ" = (
 /obj/floor_decal/borderfloorblack,
 /obj/floor_decal/corner/paleblue/border,
@@ -3308,26 +2780,6 @@
 	},
 /turf/simulated/wall/ocp_wall,
 /area/tempeterra/atmos/atmos)
-"Cy" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/floor_decal/industrial/warning{
-	dir = 10
-	},
-/obj/structure/railing/mapped,
-/obj/floor_decal/techfloor{
-	dir = 4
-	},
-/obj/structure/closet/walllocker{
-	pixel_x = 32;
-	name = "PDW locker"
-	},
-/obj/item/ammo_magazine/machine_pistol,
-/obj/item/ammo_magazine/machine_pistol,
-/obj/item/ammo_magazine/machine_pistol,
-/obj/item/ammo_magazine/machine_pistol,
-/obj/item/gun/projectile/automatic/machine_pistol,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
 "Cz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -3347,39 +2799,6 @@
 /obj/machinery/door/blast/regular,
 /turf/simulated/floor/airless,
 /area/tempeterra/atmos/atmos)
-"CN" = (
-/obj/floor_decal/borderfloorblack{
-	dir = 1
-	},
-/obj/machinery/door/airlock/external{
-	dir = 4
-	},
-/obj/machinery/door/blast/regular{
-	dir = 8;
-	name = "Forward Blast Door"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
-"CS" = (
-/obj/structure/cable/cyan{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/obj/floor_decal/industrial/warning/corner{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/cyan{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/tempeterra/shuttle)
 "CT" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -3418,17 +2837,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tempeterra/hallway/firstdeck/stairs)
-"Dn" = (
-/obj/floor_decal/techfloor,
-/obj/machinery/atmospherics/unary/tank/carbon_dioxide,
-/obj/floor_decal/industrial/outline/orange,
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle/fuel)
 "Dp" = (
 /obj/structure/sign/deck/third{
 	pixel_y = -32;
@@ -3443,21 +2851,6 @@
 /obj/floor_decal/corner/paleblue/border,
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hallway/firstdeck/ladder/port)
-"Du" = (
-/obj/structure/cable/cyan{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/universal{
-	dir = 4
-	},
-/obj/floor_decal/industrial/warning/fulltile,
-/obj/machinery/door/airlock/vault{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
 "Dx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
@@ -3479,22 +2872,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hangar)
-"DE" = (
-/obj/machinery/hologram/holopad/longrange,
-/obj/floor_decal/industrial/outline/yellow,
-/obj/machinery/recharger/wallcharger{
-	dir = 1;
-	pixel_x = -3;
-	pixel_y = -23
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/tempeterra/shuttle)
 "DG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -3546,14 +2923,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/meeting)
-"DT" = (
-/obj/floor_decal/techfloor{
-	dir = 4
-	},
-/obj/machinery/atmospherics/unary/tank/carbon_dioxide,
-/obj/floor_decal/industrial/outline/orange,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle/fuel)
 "DV" = (
 /obj/floor_decal/industrial/warning{
 	dir = 9
@@ -3617,21 +2986,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tempeterra/atmos/atmos)
-"EU" = (
-/obj/floor_decal/techfloor{
-	dir = 4
-	},
-/obj/floor_decal/techfloor{
-	dir = 8
-	},
-/obj/floor_decal/spline/plain/blue{
-	dir = 4
-	},
-/obj/floor_decal/spline/plain/blue{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
 "EX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
@@ -3692,16 +3046,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tempeterra/meeting)
-"FD" = (
-/obj/machinery/turretid/lethal{
-	pixel_y = 32
-	},
-/obj/machinery/computer/ship/helm,
-/obj/floor_decal/corner_techfloor_gray{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/steel_ridged,
-/area/tempeterra/shuttle)
 "FF" = (
 /obj/floor_decal/borderfloorblack{
 	dir = 1
@@ -3768,18 +3112,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hangar)
-"Gn" = (
-/obj/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/machinery/atmospherics/unary/engine{
-	dir = 8
-	},
-/obj/floor_decal/borderfloorblack{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced,
-/area/tempeterra/shuttle/fuel)
 "GF" = (
 /obj/floor_decal/industrial/warning{
 	dir = 1
@@ -3826,18 +3158,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/atmos/monitoring)
-"GT" = (
-/obj/machinery/atmospherics/valve/open{
-	name = "air supply valve";
-	open = 0;
-	dir = 4
-	},
-/obj/floor_decal/industrial/outline/blue,
-/obj/floor_decal/industrial/shutoff{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techmaint,
-/area/tempeterra/shuttle)
 "GU" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -3875,14 +3195,6 @@
 /obj/structure/table/rack,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tempeterra/atmos/atmos)
-"Hd" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 6
-	},
-/obj/machinery/mech_recharger,
-/obj/floor_decal/industrial/hatch/blue,
-/turf/simulated/floor/tiled/techmaint,
-/area/tempeterra/shuttle)
 "Hp" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -3904,13 +3216,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hangar)
-"Hu" = (
-/obj/paint/sfv_arbiter,
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 10
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle)
 "HB" = (
 /obj/floor_decal/borderfloorblack,
 /obj/floor_decal/techfloor/orange{
@@ -3944,31 +3249,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/atmos/monitoring)
-"HQ" = (
-/obj/structure/bed/chair/shuttle/blue{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/overmap/visitable/ship/landable/sfc_wolfe,
-/obj/machinery/button/blast_door{
-	pixel_x = 27;
-	pixel_y = 32
-	},
-/obj/machinery/button/blast_door{
-	pixel_x = 38;
-	pixel_y = 37
-	},
-/obj/machinery/button/blast_door{
-	pixel_x = 38;
-	pixel_y = 28
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/tempeterra/shuttle)
 "Ih" = (
 /obj/floor_decal/borderfloorblack{
 	dir = 1
@@ -4013,25 +3293,6 @@
 /obj/wallframe_spawn/reinforced_phoron,
 /turf/simulated/floor,
 /area/tempeterra/hallway/firstdeck/fore/port)
-"IC" = (
-/obj/machinery/computer/ship/sensors{
-	dir = 8
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
-	},
-/obj/structure/extinguisher_cabinet{
-	pixel_x = 25
-	},
-/obj/machinery/alarm/tempeterra{
-	dir = 1;
-	pixel_y = -22
-	},
-/obj/floor_decal/corner_techfloor_gray{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/steel_ridged,
-/area/tempeterra/shuttle)
 "IE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -4057,13 +3318,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/tempeterra/hangar)
-"II" = (
-/obj/machinery/porta_turret/stationary,
-/obj/floor_decal/industrial/warning/cee{
-	dir = 1
-	},
-/turf/simulated/floor/reinforced,
-/area/tempeterra/shuttle/fuel)
 "IY" = (
 /obj/floor_decal/borderfloorblack{
 	dir = 1
@@ -4192,17 +3446,6 @@
 "Kl" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/tempeterra/meeting)
-"Kp" = (
-/obj/floor_decal/borderfloorblack,
-/obj/machinery/door/airlock/external{
-	dir = 4
-	},
-/obj/machinery/door/blast/regular{
-	dir = 8;
-	name = "Forward Blast Door"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
 "Kq" = (
 /obj/floor_decal/borderfloorblack{
 	dir = 1
@@ -4342,16 +3585,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hallway/firstdeck/ladder/starboard)
-"Ll" = (
-/obj/paint/black,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle/fuel)
 "Lm" = (
 /obj/floor_decal/industrial/warning,
 /turf/simulated/floor,
@@ -4381,34 +3614,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/meeting)
-"Lw" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
-	id_tag = "charon_shuttle_pump"
-	},
-/obj/machinery/light{
-	dir = 1;
-	icon_state = "tube1"
-	},
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/structure/closet/crate/secure/shuttle{
-	dir = 8;
-	req_access = list("ACCESS_TORCH_GUP");
-	name = "medical storage compartment"
-	},
-/obj/floor_decal/corner/paleblue/mono,
-/obj/floor_decal/industrial/outline/yellow,
-/obj/item/storage/firstaid/combat,
-/obj/item/storage/firstaid/combat,
-/obj/item/reagent_containers/hypospray/autoinjector/combatpain,
-/obj/item/reagent_containers/hypospray/autoinjector/combatpain,
-/obj/item/reagent_containers/hypospray/autoinjector/combatpain,
-/obj/item/reagent_containers/hypospray/autoinjector/combatpain,
-/obj/item/bodybag/cryobag,
-/obj/item/bodybag/cryobag,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/tempeterra/shuttle)
 "Lx" = (
 /obj/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -4477,13 +3682,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tempeterra/atmos/atmos)
-"LY" = (
-/obj/paint/sfv_arbiter,
-/obj/machinery/atmospherics/pipe/simple/hidden/red{
-	dir = 6
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle)
 "Ma" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/paper_bin{
@@ -4684,31 +3882,6 @@
 /obj/machinery/floor_light/mapped_on,
 /turf/simulated/floor,
 /area/tempeterra/meeting)
-"NB" = (
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/structure/bed/chair/shuttle/black{
-	dir = 8
-	},
-/obj/item/modular_computer/telescreen/preset/generic{
-	pixel_y = 32
-	},
-/obj/floor_decal/borderfloorblack{
-	dir = 1
-	},
-/obj/floor_decal/corner/paleblue/border{
-	dir = 1
-	},
-/obj/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/item/modular_computer/telescreen/preset/generic{
-	pixel_y = 32;
-	pixel_x = -32
-	},
-/turf/simulated/floor/tiled/dark,
-/area/tempeterra/shuttle)
 "NF" = (
 /obj/machinery/floor_light/mapped_on,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -4734,21 +3907,6 @@
 /obj/structure/table/rack,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tempeterra/atmos/atmos)
-"NT" = (
-/obj/floor_decal/borderfloorblack{
-	dir = 8
-	},
-/obj/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/floor_decal/techfloor{
-	dir = 4
-	},
-/obj/floor_decal/techfloor/corner,
-/obj/floor_decal/spline/fancy/black/corner,
-/obj/structure/handrail,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
 "NZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -4819,19 +3977,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/tempeterra/hallway/firstdeck/stairs)
-"Oi" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 10
-	},
-/obj/structure/bed/chair/shuttle/black,
-/obj/floor_decal/techfloor{
-	dir = 1
-	},
-/obj/floor_decal/spline/fancy/black{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/tempeterra/shuttle)
 "Om" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/structure/cable{
@@ -4869,13 +4014,6 @@
 /obj/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tempeterra/atmos/atmos)
-"Ox" = (
-/obj/paint/sfv_arbiter,
-/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
-	dir = 8
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle/fuel)
 "OC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -4930,18 +4068,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hallway/firstdeck/fore/port)
-"OX" = (
-/obj/floor_decal/industrial/warning/fulltile,
-/obj/machinery/door/airlock/hatch,
-/obj/machinery/door/blast/regular{
-	density = 0;
-	icon_state = "pdoor0";
-	id_tag = "ert_brig";
-	name = "Starboard Blast Shutters";
-	opacity = 0
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
 "Pd" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/machinery/atmospherics/pipe/simple/visible/supply{
@@ -5062,18 +4188,6 @@
 /obj/machinery/floor_light/mapped_on,
 /turf/simulated/floor,
 /area/tempeterra/atmos/monitoring)
-"Ql" = (
-/obj/floor_decal/industrial/warning/fulltile,
-/obj/machinery/door/airlock/hatch,
-/obj/machinery/door/blast/regular{
-	density = 0;
-	icon_state = "pdoor0";
-	id_tag = "ert_brig";
-	name = "Port Blast Shutters";
-	opacity = 0
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
 "Qw" = (
 /obj/machinery/power/apc/tempeterra{
 	dir = 1;
@@ -5142,17 +4256,6 @@
 /obj/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tempeterra/atmos/atmos)
-"QX" = (
-/obj/floor_decal/industrial/outline/blue,
-/obj/machinery/atmospherics/portables_connector{
-	dir = 4
-	},
-/obj/machinery/portable_atmospherics/canister/air,
-/obj/floor_decal/techfloor{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle/fuel)
 "QZ" = (
 /obj/machinery/power/apc/tempeterra{
 	pixel_y = -24
@@ -5181,16 +4284,6 @@
 /obj/machinery/floor_light/mapped_on,
 /turf/simulated/floor,
 /area/tempeterra/atmos/monitoring)
-"Rb" = (
-/obj/machinery/shipsensors,
-/obj/structure/railing/mapped{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
-/obj/structure/railing/mapped,
-/obj/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/reinforced,
-/area/tempeterra/shuttle)
 "Rf" = (
 /obj/machinery/recharge_station,
 /obj/floor_decal/industrial/outline/yellow,
@@ -5250,12 +4343,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/tempeterra/atmos/atmos)
-"RH" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden,
-/obj/floor_decal/techfloor,
-/obj/floor_decal/spline/fancy/black,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/tempeterra/shuttle)
 "RN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -5281,20 +4368,6 @@
 	},
 /turf/simulated/floor,
 /area/tempeterra/hallway/firstdeck/ladder/starboard)
-"RS" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/shuttle_landmark/sfc_wolfe,
-/obj/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/floor_decal/techfloor{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
 "RZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -5329,18 +4402,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tempeterra/robotics)
-"Se" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 8
-	},
-/obj/floor_decal/techfloor{
-	dir = 1
-	},
-/obj/floor_decal/spline/fancy/black{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/tempeterra/shuttle)
 "Sg" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/tempeterra/robotics)
@@ -5496,13 +4557,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tempeterra/hangar)
-"TC" = (
-/obj/paint/sfv_arbiter,
-/obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 1
-	},
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle)
 "TE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5702,26 +4756,6 @@
 /obj/floor_decal/corner/red/half,
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/brig/port)
-"Ve" = (
-/obj/floor_decal/techfloor{
-	dir = 4
-	},
-/obj/machinery/atmospherics/portables_connector{
-	dir = 8
-	},
-/obj/floor_decal/industrial/outline/orange,
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide/engine_setup{
-	start_pressure = 7498
-	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 21
-	},
-/obj/machinery/alarm/tempeterra{
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle/fuel)
 "Vn" = (
 /obj/floor_decal/corner/paleblue/half{
 	dir = 1
@@ -6010,38 +5044,6 @@
 /obj/machinery/nav_light,
 /turf/space,
 /area/space)
-"XC" = (
-/obj/machinery/power/apc/tempeterra{
-	pixel_y = -24
-	},
-/obj/structure/cable/cyan{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/structure/cable/cyan{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/binary/pump/on{
-	target_pressure = 200;
-	dir = 8
-	},
-/obj/machinery/button/alternate/door/bolts{
-	id_tag = "engine_electrical_maintenance";
-	name = "Door Bolt Control";
-	pixel_x = -24;
-	pixel_y = -24;
-	req_access = list("ACCESS_ENGINEERING")
-	},
-/obj/floor_decal/techfloor{
-	dir = 8
-	},
-/obj/floor_decal/industrial/warning{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/tempeterra/shuttle)
 "XD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -6098,23 +5100,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tempeterra/hallway/firstdeck/fore/starboard)
-"Yg" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
-	dir = 1
-	},
-/obj/structure/cable/yellow{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/machinery/power/port_gen/pacman/mrs,
-/obj/floor_decal/industrial/hatch/yellow,
-/obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/tempeterra/shuttle/fuel)
 "Yo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -6201,16 +5186,6 @@
 /obj/paint/sfv_arbiter,
 /turf/simulated/wall/ocp_wall,
 /area/tempeterra/atmos/atmos)
-"YT" = (
-/obj/machinery/door/airlock/external{
-	dir = 4
-	},
-/obj/machinery/door/blast/regular{
-	dir = 8;
-	name = "Forward Blast Door"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/tempeterra/shuttle)
 "YW" = (
 /obj/floor_decal/techfloor{
 	dir = 1
@@ -6233,26 +5208,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/tempeterra/atmos/atmos)
-"Zk" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/cyan{
-	dir = 4
-	},
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/obj/structure/cable/cyan{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/tempeterra/shuttle/fuel)
 "Zp" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/tempeterra/hallway/firstdeck/fore/port)
@@ -6270,14 +5225,6 @@
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/tempeterra/atmos/atmos)
-"ZL" = (
-/obj/paint/sfv_arbiter,
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 8
-	},
-/obj/structure/sign/solgov,
-/turf/simulated/wall/r_titanium,
-/area/tempeterra/shuttle)
 "ZQ" = (
 /obj/floor_decal/techfloor{
 	dir = 1
@@ -10918,12 +9865,12 @@ Pt
 Mh
 GF
 aq
-qM
-CN
-YT
-Kp
-qM
-Rb
+aq
+aq
+aq
+aq
+aq
+aq
 Lm
 Mh
 Pt
@@ -10999,13 +9946,13 @@ Pt
 Pt
 HK
 aR
-ni
-qM
-NT
-iF
-oP
-qM
-ni
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 kC
 pU
 Pt
@@ -11080,15 +10027,15 @@ No
 Pt
 Pt
 XR
-qM
-qM
-Lw
-Bm
-Hd
-Se
-nF
-qM
-qM
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 tj
 Pt
 Pt
@@ -11162,15 +10109,15 @@ No
 Pt
 Pt
 XR
-OX
-EU
-xu
-RH
-dO
-rN
-lV
-EU
-Ql
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 tj
 Pt
 Pt
@@ -11244,15 +10191,15 @@ No
 Pt
 Pt
 mQ
-qM
-qM
-ff
-xf
-GT
-ih
-jd
-qM
-qM
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 Fa
 Pt
 Pt
@@ -11326,15 +10273,15 @@ No
 Pt
 Pt
 dc
-at
-pE
-ff
-xf
-BX
-Oi
-jd
-LY
-vV
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 yF
 Pt
 Pt
@@ -11409,13 +10356,13 @@ Pt
 Pt
 SX
 aq
-TC
-pr
-uV
-RS
-Cy
-eR
-sa
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 aq
 Xr
 Pt
@@ -11491,13 +10438,13 @@ Pt
 Pt
 SX
 aq
-ZL
-mS
-Du
-cH
-mS
-mS
-ni
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 aq
 Xr
 Pt
@@ -11572,15 +10519,15 @@ Pt
 Pt
 vL
 TU
-at
-oD
-qP
-XC
-Ll
-tY
-QX
-eX
-II
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 Cz
 WH
 Pt
@@ -11654,15 +10601,15 @@ Pt
 Pt
 Yz
 Kt
-qM
-qM
-NB
-CS
-BH
-Zk
-bM
-mg
-eX
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 EX
 Uw
 Pt
@@ -11736,15 +10683,15 @@ Pt
 Pt
 yv
 Gl
-qM
-sZ
-bi
-al
-oG
-rp
-pc
-cl
-eX
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 fB
 Af
 Pt
@@ -11818,15 +10765,15 @@ Pt
 Pt
 ws
 sS
-qM
-FD
-HQ
-DE
-xm
-vC
-Yg
-Dn
-kc
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 tZ
 qQ
 Pt
@@ -11900,15 +10847,15 @@ Pt
 Pt
 hd
 sS
-qM
-qM
-hS
-IC
-xm
-Ve
-DT
-eX
-eX
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 Hp
 qv
 Pt
@@ -11983,13 +10930,13 @@ Pt
 kV
 Gl
 aq
-qM
-Hu
-vD
-Ox
-bV
-eX
-eX
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 aq
 Dx
 Ar
@@ -12066,11 +11013,11 @@ ei
 Gl
 aq
 CV
-qM
-Gn
-Gn
-Gn
-eX
+aq
+aq
+aq
+aq
+aq
 CV
 aq
 Dx
