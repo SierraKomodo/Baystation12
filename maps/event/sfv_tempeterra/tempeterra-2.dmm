@@ -1387,9 +1387,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 10
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
 /obj/floor_decal/corner_techfloor_grid{
 	dir = 9
 	},
@@ -8532,9 +8529,6 @@
 /turf/simulated/floor/reinforced,
 /area/tempeterra/engineering/reactor/twocore)
 "Jt" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
